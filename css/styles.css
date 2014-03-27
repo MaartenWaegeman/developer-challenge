@@ -1,0 +1,68 @@
+body{
+	background-color: #183152;
+	color:#E1E6FA;
+	height: 100%;
+}
+#content{
+	height: 100%;
+}
+#graph .tickLabel{
+    color:#E1E6FA;
+}
+.center{
+    text-align:center;
+}
+/*Fixes the problem where the menu causes a scrollbar to appear*/
+#navHeaderCollapse{
+	max-height: none;
+}
+th[data-sort] {
+    cursor: pointer;
+}
+.legendLabel{
+	padding-left: 3px;
+}
+#tooltip{
+	position: absolute;
+	display:none;
+	border: 1px solid #fdd;
+	padding: 2px;
+	background-color: #183152;
+	opacity: 0.9;
+	width:213px;
+	z-index: 1;
+}
+#actiontable1 td,#actiontable2 td{
+	border-top:1px double #E1E6FA;
+}
+.tableamount,.tablepoints{
+	text-align: center;
+}
+.positive{
+	color:green;
+}
+.negative{
+	color:red;
+}
+#actiontable1,#actiontable2{
+	width:100%;
+}
+footer{
+	min-height: 50px;
+	color:#375D81;
+	background-color: #ABC8E2;
+	border-top: 1px #000 solid;
+    border-bottom: 1px #000 solid;
+}
+@media (min-width: 768px){
+  	.playermenu {
+  		text-align: center;
+    	width:110px;
+	}
+	.scoreminimenu{
+  		display:none;
+	}
+}
+.hellomessage{
+	font-size: 30px;
+}
